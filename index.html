@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"     content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Hey this is my survey</p>
+    <form method="post" action="christelleilunga" id="survey-form">
+      
+      <fieldset>
+        <label for="name" id="name-label" >Name<input id="name" type="text" placeholder="Enter your name" required></label>
+        <label for="email" id="email-label">Email<input id="email" type="email" placeholder="Enter Email" required></label>
+        <label for="number" id="number-label">Age(year)<input id="number" type="number" name="age" min="12" max="120" placeholder="Age" /></label>
+
+        <label for="dropdown">Which option describ your current role
+          <select id="dropdown">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+          </select>
+        </label>
+        <label for=""><input id="" type="radio" name="choix" value="choix"/> text ici</label>
+        <label for=""><input id="" type="radio" name="choix" value="choix"/> text ici 2</label>
+        <label>les check:</label>
+        <label><input type="checkbox" value="c"/>une option</label>
+        <label><input type="checkbox" value="c"/>une option</label>
+        <label><input type="checkbox" value="c"/>une option</label>
+        <label><input type="checkbox" value="c"/>une option</label>
+   
+       <label>Enter a comment here
+         <textarea placeholder="your comment goes here"></textarea>
+         </label> 
+        
+      </fieldset>
+       <input type="submit" id="submit"/>
+    </form>
+
+  </body>
+
+</html>
